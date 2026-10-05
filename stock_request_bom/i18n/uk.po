@@ -22,3 +22,15 @@ msgstr "BoM товару"
 #: model:ir.model.fields,field_description:stock_request_bom.field_stock_request_order__quantity_bom
 msgid "Quantity BOM"
 msgstr "Кількість у специфікації"
+
+#. module: stock_request_bom
+#: model:ir.model.fields,help:stock_request_bom.field_stock_request_order__product_bom_id
+msgid "Select a product with a BOM to auto-complete stock request lines."
+msgstr ""
+"Виберіть товар зі специфікацією, щоб автоматично заповнювати рядки "
+"складського запиту."
+
+#. module: stock_request_bom
+#: model:ir.model.fields,help:stock_request_bom.field_stock_request_order__quantity_bom
+msgid "Specify the quantity for the Product BOM."
+msgstr "Укажіть кількість для специфікації товару."

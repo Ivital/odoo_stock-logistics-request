@@ -600,3 +600,28 @@ msgstr "Значення останнього відсканованого шт�
 #: model:ir.model.fields,help:stock_request_kanban.field_stock_request_kanban__website_message_ids
 msgid "Website communication history"
 msgstr "Історія комунікації через вебсайт"
+
+#. module: stock_request_kanban
+#: model:ir.model,name:stock_request_kanban.model_stock_inventory_kanban
+msgid "Inventory for Kanban"
+msgstr "Інвентаризація для Kanban"
+
+#. module: stock_request_kanban
+#: model:ir.model,name:stock_request_kanban.model_wizard_stock_inventory_kanban
+msgid "Stock Inventory Kanban Wizard"
+msgstr "Майстер Kanban інвентаризації запасів"
+
+#. module: stock_request_kanban
+#: model:ir.model,name:stock_request_kanban.model_wizard_stock_request_kanban_abstract
+msgid "Stock Request Kanban Abstract Wizard"
+msgstr "Абстрактний Kanban-майстер запиту на склад"
+
+#. module: stock_request_kanban
+#: model:ir.model,name:stock_request_kanban.model_wizard_stock_request_kanban
+msgid "Stock Request Kanban Wizard"
+msgstr "Майстер Kanban запиту на склад"
+
+#. module: stock_request_kanban
+#: model:ir.model,name:stock_request_kanban.model_wizard_stock_request_order_kanban
+msgid "Stock Request Order Kanban Wizard"
+msgstr "Kanban-майстер замовлення запиту на склад"

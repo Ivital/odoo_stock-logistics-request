@@ -544,3 +544,65 @@ msgstr "Тип дії-винятку для запису."
 #: model:ir.model.fields,help:stock_return_request.field_stock_return_request__website_message_ids
 msgid "Website communication history"
 msgstr "Історія комунікації через вебсайт"
+
+#. module: stock_return_request
+#: model:ir.model,name:stock_return_request.model_stock_return_request
+msgid "Perform stock returns across pickings"
+msgstr "Виконувати повернення запасів між переміщеннями"
+
+#. module: stock_return_request
+#: model:ir.model,name:stock_return_request.model_stock_return_request_line
+msgid "Product to search for returns"
+msgstr "Товар для пошуку повернень"
+
+#. module: stock_return_request
+#: model:ir.model.fields,help:stock_return_request.field_stock_return_request__picking_types
+msgid "Restrict operation types to search for"
+msgstr "Обмежити типи операцій для пошуку"
+
+#. module: stock_return_request
+#: model:ir.model.fields,help:stock_return_request.field_stock_return_request__return_from_location
+msgid "Return from this location"
+msgstr "Повернення з цього місця"
+
+#. module: stock_return_request
+#: model:ir.model.fields,help:stock_return_request.field_stock_return_request__return_to_location
+msgid "Return to this location"
+msgstr "Повернути до цього місця"
+
+#. module: stock_return_request
+#: model:ir.model,name:stock_return_request.model_suggest_return_request_lot
+#: model:ir.model,name:stock_return_request.model_suggest_return_request_lot_line
+msgid "Suggest lots for the return request line"
+msgstr "Пропонувати партії для рядка запиту на повернення"
+
+#. module: stock_return_request
+#: model:ir.model.fields,help:stock_return_request.field_stock_return_request__return_type
+msgid ""
+"Supplier - Search for incoming moves from this supplier\n"
+"Customer - Search for outgoing moves to this customer\n"
+"Internal - Search for outgoing moves to this location."
+msgstr ""
+"Постачальник — шукати вхідні переміщення від цього постачальника\n"
+"Клієнт — шукати вихідні переміщення до цього клієнта\n"
+"Внутрішня — шукати вихідні переміщення до цієї локації."
+
+#. module: stock_return_request
+#: model:ir.model.fields,help:stock_return_request.field_stock_return_request__return_order
+msgid "The returns will be performed searching moves in the given order."
+msgstr ""
+"Повернення виконуватимуться шляхом пошуку переміщень у вказаному порядку."
+
+#. module: stock_return_request
+#: model:ir.model.fields,help:stock_return_request.field_stock_return_request__note
+msgid "They will be visible on the report"
+msgstr "Вони будуть видимі у звіті"
+
+#. module: stock_return_request
+#: model:ir.model.fields,help:stock_return_request.field_stock_return_request__show_to_refund
+msgid ""
+"Whether to show it or not depending on the availability ofthe stock_account "
+"module (so a bridge module is not necessary)"
+msgstr ""
+"Чи показувати залежно від наявності модуля stock_account, щоб не був "
+"потрібен проміжний модуль"
