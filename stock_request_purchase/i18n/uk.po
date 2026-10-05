@@ -49,3 +49,21 @@ msgstr "Замовлення на закупівлю"
 #: model:ir.model.fields,field_description:stock_request_purchase.field_purchase_order__stock_request_count
 msgid "Stock Request #"
 msgstr "Запит на склад №"
+
+#. module: stock_request_purchase
+#. odoo-python
+#: code:addons/stock_request_purchase/models/purchase_order_line.py:0
+msgid ""
+"You cannot link a purchase order line to a stock request that belongs to "
+"another company."
+msgstr ""
+"Не можна пов’язати рядок замовлення на закупівлю зі складським запитом іншої"
+" компанії."
+
+#. module: stock_request_purchase
+#. odoo-python
+#: code:addons/stock_request_purchase/models/stock_request.py:0
+msgid ""
+"You have linked to a purchase order line that belongs to another company."
+msgstr ""
+"Ви пов’язали рядок замовлення на закупівлю, що належить іншій компанії."

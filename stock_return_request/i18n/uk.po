@@ -606,3 +606,57 @@ msgid ""
 msgstr ""
 "Чи показувати залежно від наявності модуля stock_account, щоб не був "
 "потрібен проміжний модуль"
+
+#. module: stock_return_request
+#. odoo-python
+#: code:addons/stock_return_request/models/stock_return_request.py:0
+msgid "Add some products to return"
+msgstr "Додайте товари для повернення"
+
+#. module: stock_return_request
+#. odoo-python
+#: code:addons/stock_return_request/models/stock_return_request.py:0
+msgid ""
+"It wasn't possible to assign stock for this returns:\n"
+"{failed_moves_str}"
+msgstr ""
+"Не вдалося призначити запас для цих повернень:\n"
+"{failed_moves_str}"
+
+#. module: stock_return_request
+#. odoo-python
+#: code:addons/stock_return_request/models/stock_return_request.py:0
+msgid ""
+"Not enough moves to return this product.\n"
+"It wasn't possible to find enough moves to return {line_quantity} {line_product_uom_id_name} of {line_product_id_displayname}. A maximum of {qty_found} can be returned."
+msgstr ""
+"Недостатньо переміщень для повернення цього товару.\n"
+"Не вдалося знайти достатньо переміщень, щоб повернути {line_quantity} {line_product_uom_id_name} товару {line_product_id_displayname}. Максимально можна повернути {qty_found}."
+
+#. module: stock_return_request
+#. odoo-python
+#: code:addons/stock_return_request/models/stock_return_request.py:0
+msgid "Return of %s"
+msgstr "Повернення %s"
+
+#. module: stock_return_request
+#. odoo-python
+#: code:addons/stock_return_request/models/stock_return_request.py:0
+msgid "Suggest Lot"
+msgstr "Запропонувати партію"
+
+#. module: stock_return_request
+#. odoo-python
+#: code:addons/stock_return_request/models/stock_return_request.py:0
+msgid "You cannot delete this record."
+msgstr "Цей запис не можна видалити."
+
+#. module: stock_return_request
+#. odoo-python
+#: code:addons/stock_return_request/models/stock_return_request.py:0
+msgid ""
+"You cannot have two open Stock Return Requests with the same product ({product_id}), locations ({return_from_location}, {return_to_location}) partner ({partner_id}) and lot.\n"
+"Please first validate the first return request with this product before creating a new one."
+msgstr ""
+"Не можна мати два відкриті запити на повернення запасів з однаковим товаром ({product_id}), місцями ({return_from_location}, {return_to_location}), партнером ({partner_id}) і партією.\n"
+"Спочатку підтвердьте перший запит на повернення цього товару, перш ніж створювати новий."

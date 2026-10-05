@@ -871,3 +871,205 @@ msgstr "Назва запиту на склад має бути унікальн
 #: model:ir.model.fields,help:stock_request.field_stock_request_order__route_id
 msgid "The route related to a stock request order"
 msgstr "Маршрут, пов’язаний із замовленням запиту на склад"
+
+#. module: stock_request
+#. odoo-python
+#: code:addons/stock_request/models/stock_move_line.py:0
+msgid ""
+"%(product_name)s : Transferred quantity %(product_qty)s %(product_uom)s"
+msgstr ""
+"%(product_name)s: Переміщена кількість %(product_qty)s %(product_uom)s"
+
+#. module: stock_request
+#. odoo-python
+#: code:addons/stock_request/models/stock_request.py:0
+msgid "Company must be equal to the order"
+msgstr "Компанія має збігатися із замовленням"
+
+#. module: stock_request
+#. odoo-python
+#: code:addons/stock_request/models/stock_request.py:0
+msgid "Expected date must be equal to the order"
+msgstr "Очікувана дата має дорівнювати даті замовлення"
+
+#. module: stock_request
+#. odoo-python
+#: code:addons/stock_request/models/stock_request.py:0
+msgid "Location must be equal to the order"
+msgstr "Місце має збігатися із замовленням"
+
+#. module: stock_request
+#. odoo-python
+#: code:addons/stock_request/models/stock_request_order.py:0
+msgid "Only orders on draft state can be unlinked"
+msgstr "Видаляти можна лише замовлення у стані чернетки"
+
+#. module: stock_request
+#. odoo-python
+#: code:addons/stock_request/models/stock_request.py:0
+msgid "Only requests on draft state can be unlinked"
+msgstr "Видаляти можна лише запити у стані чернетки"
+
+#. module: stock_request
+#. odoo-python
+#: code:addons/stock_request/models/stock_request.py:0
+msgid "Procurement group must be equal to the order"
+msgstr "Група забезпечення має дорівнювати замовленню"
+
+#. module: stock_request
+#. odoo-python
+#: code:addons/stock_request/models/stock_move_line.py:0
+msgid ""
+"Receipt confirmation %(picking_name)s for your Request %(request_name)s"
+msgstr ""
+"Підтвердження отримання %(picking_name)s для вашого запиту %(request_name)s"
+
+#. module: stock_request
+#. odoo-python
+#: code:addons/stock_request/models/stock_request.py:0
+msgid "Requested by must be equal to the order"
+msgstr "Поле «Запитано» має дорівнювати замовленню"
+
+#. module: stock_request
+#. odoo-python
+#: code:addons/stock_request/models/stock_request.py:0
+msgid "Stock Request product quantity cannot be negative."
+msgstr "Кількість товару в складському запиті не може бути від’ємною."
+
+#. module: stock_request
+#. odoo-python
+#: code:addons/stock_request/models/stock_request.py:0
+msgid "Stock Request product quantity has to be strictly positive."
+msgstr "Кількість товару в складському запиті має бути строго додатною."
+
+#. module: stock_request
+#. odoo-python
+#: code:addons/stock_request/models/stock_move.py:0
+#: code:addons/stock_request/models/stock_request_order.py:0
+msgid "The company of the stock request must match with that of the location."
+msgstr "Компанія складського запиту має збігатися з компанією місця."
+
+#. module: stock_request
+#. odoo-python
+#: code:addons/stock_request/models/stock_request_order.py:0
+msgid ""
+"The company of the stock request must match with that of the warehouse."
+msgstr "Компанія складського запиту має відповідати компанії складу."
+
+#. module: stock_request
+#. odoo-python
+#: code:addons/stock_request/models/stock_move_line.py:0
+msgid ""
+"The following requested items from Stock Request %(request_name)s have now "
+"been received in %(location_name)s using Picking %(picking_name)s:"
+msgstr ""
+"Такі запитані елементи зі складського запиту %(request_name)s тепер отримано"
+" в %(location_name)s через переміщення %(picking_name)s:"
+
+#. module: stock_request
+#. odoo-python
+#: code:addons/stock_request/models/stock_request.py:0
+msgid "The picking policy must be equal to the order"
+msgstr "Політика комплектування має відповідати замовленню"
+
+#. module: stock_request
+#. odoo-python
+#: code:addons/stock_request/models/stock_request_order.py:0
+msgid "There should be at least one request item for confirming the order."
+msgstr "Для підтвердження замовлення має бути щонайменше один елемент запиту."
+
+#. module: stock_request
+#. odoo-python
+#: code:addons/stock_request/models/stock_request_order.py:0
+msgid "This action only works in the context of products"
+msgstr "Ця дія працює лише в контексті товарів"
+
+#. module: stock_request
+#. odoo-python
+#: code:addons/stock_request/models/stock_request.py:0
+msgid "Warehouse must be equal to the order"
+msgstr "Склад має збігатися із замовленням"
+
+#. module: stock_request
+#. odoo-python
+#: code:addons/stock_request/models/stock_location.py:0
+msgid ""
+"You cannot change the company of the location, as it is already assigned to "
+"stock request orders that belong to another company."
+msgstr ""
+"Не можна змінити компанію місця, оскільки воно вже призначене замовленням "
+"складських запитів іншої компанії."
+
+#. module: stock_request
+#. odoo-python
+#: code:addons/stock_request/models/stock_location.py:0
+msgid ""
+"You cannot change the company of the location, as it is already assigned to "
+"stock requests that belong to another company."
+msgstr ""
+"Не можна змінити компанію місця, оскільки воно вже призначене складським "
+"запитам іншої компанії."
+
+#. module: stock_request
+#. odoo-python
+#: code:addons/stock_request/models/stock_route.py:0
+msgid ""
+"You cannot change the company of the route, as it is already assigned to "
+"stock requests that belong to another company."
+msgstr ""
+"Не можна змінити компанію маршруту, оскільки він уже призначений складським "
+"запитам іншої компанії."
+
+#. module: stock_request
+#. odoo-python
+#: code:addons/stock_request/models/stock_warehouse.py:0
+msgid ""
+"You cannot change the company of the warehouse, as it is already assigned to"
+" stock request orders that belong to another company."
+msgstr ""
+"Не можна змінити компанію складу, оскільки він уже призначений замовленням "
+"складських запитів іншої компанії."
+
+#. module: stock_request
+#. odoo-python
+#: code:addons/stock_request/models/stock_warehouse.py:0
+msgid ""
+"You cannot change the company of the warehouse, as it is already assigned to"
+" stock requests that belong to another company."
+msgstr ""
+"Не можна змінити компанію складу, оскільки він уже призначений складським "
+"запитам іншої компанії."
+
+#. module: stock_request
+#. odoo-python
+#: code:addons/stock_request/models/stock_request_abstract.py:0
+msgid "You have entered a location that is assigned to another company."
+msgstr "Ви ввели місце, призначене іншій компанії."
+
+#. module: stock_request
+#. odoo-python
+#: code:addons/stock_request/models/stock_request_abstract.py:0
+msgid "You have entered a product that is assigned to another company."
+msgstr "Ви ввели товар, призначений іншій компанії."
+
+#. module: stock_request
+#. odoo-python
+#: code:addons/stock_request/models/stock_request_abstract.py:0
+msgid "You have entered a route that is assigned to another company."
+msgstr "Ви ввели маршрут, призначений іншій компанії."
+
+#. module: stock_request
+#. odoo-python
+#: code:addons/stock_request/models/stock_request_abstract.py:0
+msgid "You have entered a warehouse that is assigned to another company."
+msgstr "Ви ввели склад, призначений іншій компанії."
+
+#. module: stock_request
+#. odoo-python
+#: code:addons/stock_request/models/stock_request_abstract.py:0
+msgid ""
+"You have to select a product unit of measure in the same category than the "
+"default unit of measure of the product"
+msgstr ""
+"Потрібно вибрати одиницю вимірювання товару з тієї самої категорії, що й "
+"типова одиниця вимірювання товару"

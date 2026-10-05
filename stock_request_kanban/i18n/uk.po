@@ -625,3 +625,73 @@ msgstr "Майстер Kanban запиту на склад"
 #: model:ir.model,name:stock_request_kanban.model_wizard_stock_request_order_kanban
 msgid "Stock Request Order Kanban Wizard"
 msgstr "Kanban-майстер замовлення запиту на склад"
+
+#. module: stock_request_kanban
+#. odoo-python
+#: code:addons/stock_request_kanban/wizard/wizard_stock_request_kanban.py:0
+msgid "Added kanban %(kanban)s for product %(product)s"
+msgstr "Додано канбан %(kanban)s для товару %(product)s"
+
+#. module: stock_request_kanban
+#. odoo-python
+#: code:addons/stock_request_kanban/wizard/wizard_stock_request_kanban_abstract.py:0
+msgid ""
+"Barcode %s does not correspond to any Kanban. Try with another barcode or "
+"press Close to finish scanning."
+msgstr ""
+"Штрихкод %s не відповідає жодному Kanban. Спробуйте інший штрихкод або "
+"натисніть «Закрити», щоб завершити сканування."
+
+#. module: stock_request_kanban
+#. odoo-python
+#: code:addons/stock_request_kanban/wizard/wizard_stock_inventory_kanban.py:0
+msgid "Barcode %s is already scanned"
+msgstr "Штрихкод %s уже відскановано"
+
+#. module: stock_request_kanban
+#. odoo-python
+#: code:addons/stock_request_kanban/wizard/wizard_stock_inventory_kanban.py:0
+msgid "Barcode %s is not in the inventory"
+msgstr "Штрихкод %s відсутній в інвентаризації"
+
+#. module: stock_request_kanban
+#. odoo-python
+#: code:addons/stock_request_kanban/wizard/wizard_stock_request_order_kanban.py:0
+msgid "Barcode %s is on the order"
+msgstr "Штрихкод %s є в замовленні"
+
+#. module: stock_request_kanban
+#. odoo-python
+#: code:addons/stock_request_kanban/models/stock_request_kanban.py:0
+msgid "CRC is not valid"
+msgstr "CRC недійсний"
+
+#. module: stock_request_kanban
+#. odoo-python
+#: code:addons/stock_request_kanban/wizard/wizard_stock_request_order_kanban.py:0
+msgid "Company must be the same"
+msgstr "Компанія має бути однаковою"
+
+#. module: stock_request_kanban
+#. odoo-python
+#: code:addons/stock_request_kanban/wizard/wizard_stock_request_order_kanban.py:0
+msgid "Lines only can be added on orders with draft state"
+msgstr "Рядки можна додавати лише до замовлень у стані чернетки"
+
+#. module: stock_request_kanban
+#. odoo-python
+#: code:addons/stock_request_kanban/wizard/wizard_stock_request_order_kanban.py:0
+msgid "Location must be the same"
+msgstr "Місце має бути однаковим"
+
+#. module: stock_request_kanban
+#. odoo-python
+#: code:addons/stock_request_kanban/wizard/wizard_stock_request_order_kanban.py:0
+msgid "Procurement group must be the same"
+msgstr "Група закупівлі має бути однаковою"
+
+#. module: stock_request_kanban
+#. odoo-python
+#: code:addons/stock_request_kanban/wizard/wizard_stock_request_order_kanban.py:0
+msgid "Warehouse must be the same"
+msgstr "Склад має бути однаковим"
