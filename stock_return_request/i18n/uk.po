@@ -1,0 +1,165 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:40+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: stock_return_request
+#: model:ir.model.fields,field_description:stock_return_request.field_stock_return_request__activity_ids
+msgid "Activities"
+msgstr "Дії"
+
+#. module: stock_return_request
+#: model:ir.model.fields.selection,name:stock_return_request.selection__stock_return_request__state__cancel
+msgid "Cancelled"
+msgstr "Скасовано"
+
+#. module: stock_return_request
+#: model:ir.model.fields,field_description:stock_return_request.field_stock_return_request__note
+#: model_terms:ir.ui.view,arch_db:stock_return_request.view_stock_return_request_form
+msgid "Comments"
+msgstr "Коментарі"
+
+#. module: stock_return_request
+#: model:ir.model.fields.selection,name:stock_return_request.selection__stock_return_request__state__confirmed
+msgid "Confirmed"
+msgstr "Підтверджено"
+
+#. module: stock_return_request
+#: model:ir.model.fields,field_description:stock_return_request.field_stock_return_request__create_uid
+#: model:ir.model.fields,field_description:stock_return_request.field_stock_return_request_line__create_uid
+#: model:ir.model.fields,field_description:stock_return_request.field_suggest_return_request_lot__create_uid
+#: model:ir.model.fields,field_description:stock_return_request.field_suggest_return_request_lot_line__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: stock_return_request
+#: model:ir.model.fields,field_description:stock_return_request.field_stock_return_request__create_date
+#: model:ir.model.fields,field_description:stock_return_request.field_stock_return_request_line__create_date
+#: model:ir.model.fields,field_description:stock_return_request.field_suggest_return_request_lot__create_date
+#: model:ir.model.fields,field_description:stock_return_request.field_suggest_return_request_lot_line__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: stock_return_request
+#: model:ir.model.fields,field_description:stock_return_request.field_stock_return_request__display_name
+#: model:ir.model.fields,field_description:stock_return_request.field_stock_return_request_line__display_name
+#: model:ir.model.fields,field_description:stock_return_request.field_suggest_return_request_lot__display_name
+#: model:ir.model.fields,field_description:stock_return_request.field_suggest_return_request_lot_line__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: stock_return_request
+#: model:ir.model.fields.selection,name:stock_return_request.selection__stock_return_request__state__done
+msgid "Done"
+msgstr "Готово"
+
+#. module: stock_return_request
+#: model:ir.model.fields,field_description:stock_return_request.field_stock_return_request__message_follower_ids
+msgid "Followers"
+msgstr "Підписники"
+
+#. module: stock_return_request
+#: model:ir.model.fields,field_description:stock_return_request.field_stock_return_request__has_message
+msgid "Has Message"
+msgstr "Має повідомлення"
+
+#. module: stock_return_request
+#: model:ir.model.fields,field_description:stock_return_request.field_stock_return_request__activity_exception_icon
+msgid "Icon"
+msgstr "Іконка"
+
+#. module: stock_return_request
+#: model:ir.model.fields,field_description:stock_return_request.field_stock_return_request__message_is_follower
+msgid "Is Follower"
+msgstr "Є підписником"
+
+#. module: stock_return_request
+#: model:ir.model.fields,field_description:stock_return_request.field_suggest_return_request_lot_line__lot_id
+msgid "Lot"
+msgstr "Партія"
+
+#. module: stock_return_request
+#: model:ir.model.fields,field_description:stock_return_request.field_stock_return_request__message_ids
+msgid "Messages"
+msgstr "Повідомлення"
+
+#. module: stock_return_request
+#: model:ir.model.fields,field_description:stock_return_request.field_suggest_return_request_lot_line__name
+msgid "Name"
+msgstr "Назва"
+
+#. module: stock_return_request
+#: model:ir.model.fields.selection,name:stock_return_request.selection__stock_return_request__state__draft
+msgid "Open"
+msgstr "Відкрити"
+
+#. module: stock_return_request
+#: model:ir.model.fields,field_description:stock_return_request.field_stock_return_request__partner_id
+msgid "Partner"
+msgstr "Партнер"
+
+#. module: stock_return_request
+#: model_terms:ir.ui.view,arch_db:stock_return_request.view_stock_return_request_form
+msgid "Pickings"
+msgstr "Переміщення"
+
+#. module: stock_return_request
+#: model_terms:ir.ui.view,arch_db:stock_return_request.view_stock_return_request_form
+msgid "Print"
+msgstr "Друк"
+
+#. module: stock_return_request
+#: model:ir.model.fields,field_description:stock_return_request.field_stock_return_request__name
+msgid "Reference"
+msgstr "Посилання"
+
+#. module: stock_return_request
+#: model:ir.model.fields,field_description:stock_return_request.field_stock_return_request_line__request_id
+#: model:ir.ui.menu,name:stock_return_request.menu_stock_return_request
+msgid "Return Request"
+msgstr "Запит на повернення"
+
+#. module: stock_return_request
+#: model:ir.model.fields,field_description:stock_return_request.field_stock_return_request__return_type
+msgid "Return Type"
+msgstr "Тип повернення"
+
+#. module: stock_return_request
+#: model:ir.model.fields,field_description:stock_return_request.field_stock_return_request__return_from_location
+msgid "Return from"
+msgstr "Повернення з"
+
+#. module: stock_return_request
+#: model:ir.model.fields,field_description:stock_return_request.field_stock_return_request__return_to_location
+msgid "Return to"
+msgstr "Повернути до"
+
+#. module: stock_return_request
+#: model:ir.model.fields,field_description:stock_return_request.field_stock_return_request__state
+msgid "State"
+msgstr "Стан"
+
+#. module: stock_return_request
+#: model:ir.model.fields,field_description:stock_return_request.field_stock_return_request__to_refund
+msgid "To Refund"
+msgstr "До відшкодування"
+
+#. module: stock_return_request
+#: model:ir.model.fields,field_description:stock_return_request.field_stock_return_request_line__tracking
+msgid "Tracking"
+msgstr "Відстеження"
+
+#. module: stock_return_request
+#: model:ir.model.fields,field_description:stock_return_request.field_suggest_return_request_lot_line__wizard_id
+msgid "Wizard"
+msgstr "Майстер"

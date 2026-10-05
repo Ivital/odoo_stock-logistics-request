@@ -1,0 +1,208 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:40+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: stock_request_kanban
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_request_kanban__active
+msgid "Active"
+msgstr "Активний"
+
+#. module: stock_request_kanban
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_inventory_kanban__activity_ids
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_request_kanban__activity_ids
+msgid "Activities"
+msgstr "Дії"
+
+#. module: stock_request_kanban
+#: model_terms:ir.ui.view,arch_db:stock_request_kanban.stock_request_kanban_search
+msgid "Archived"
+msgstr "Архівовано"
+
+#. module: stock_request_kanban
+#: model:ir.model.fields.selection,name:stock_request_kanban.selection__stock_inventory_kanban__state__cancelled
+msgid "Cancelled"
+msgstr "Скасовано"
+
+#. module: stock_request_kanban
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_request_kanban__allowed_uom_categ_id
+msgid "Category"
+msgstr "Категорія"
+
+#. module: stock_request_kanban
+#: model:ir.model.fields.selection,name:stock_request_kanban.selection__stock_inventory_kanban__state__closed
+msgid "Closed"
+msgstr "Закрито"
+
+#. module: stock_request_kanban
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_request_kanban__company_id
+msgid "Company"
+msgstr "Компанія"
+
+#. module: stock_request_kanban
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_inventory_kanban__create_uid
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_request_kanban__create_uid
+#: model:ir.model.fields,field_description:stock_request_kanban.field_wizard_stock_inventory_kanban__create_uid
+#: model:ir.model.fields,field_description:stock_request_kanban.field_wizard_stock_request_kanban__create_uid
+#: model:ir.model.fields,field_description:stock_request_kanban.field_wizard_stock_request_order_kanban__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: stock_request_kanban
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_inventory_kanban__create_date
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_request_kanban__create_date
+#: model:ir.model.fields,field_description:stock_request_kanban.field_wizard_stock_inventory_kanban__create_date
+#: model:ir.model.fields,field_description:stock_request_kanban.field_wizard_stock_request_kanban__create_date
+#: model:ir.model.fields,field_description:stock_request_kanban.field_wizard_stock_request_order_kanban__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: stock_request_kanban
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_inventory_kanban__display_name
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_request_kanban__display_name
+#: model:ir.model.fields,field_description:stock_request_kanban.field_wizard_stock_inventory_kanban__display_name
+#: model:ir.model.fields,field_description:stock_request_kanban.field_wizard_stock_request_kanban__display_name
+#: model:ir.model.fields,field_description:stock_request_kanban.field_wizard_stock_request_order_kanban__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: stock_request_kanban
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_inventory_kanban__message_follower_ids
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_request_kanban__message_follower_ids
+msgid "Followers"
+msgstr "Підписники"
+
+#. module: stock_request_kanban
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_inventory_kanban__has_message
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_request_kanban__has_message
+msgid "Has Message"
+msgstr "Має повідомлення"
+
+#. module: stock_request_kanban
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_inventory_kanban__activity_exception_icon
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_request_kanban__activity_exception_icon
+msgid "Icon"
+msgstr "Іконка"
+
+#. module: stock_request_kanban
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_request_kanban__image_128
+msgid "Image 128"
+msgstr "Зображення 128"
+
+#. module: stock_request_kanban
+#: model:ir.model.fields.selection,name:stock_request_kanban.selection__stock_inventory_kanban__state__in_progress
+msgid "In progress"
+msgstr "В роботі"
+
+#. module: stock_request_kanban
+#: model:ir.ui.menu,name:stock_request_kanban.menu_wizard_stock_inventory_kanban
+msgid "Inventory"
+msgstr "Запаси"
+
+#. module: stock_request_kanban
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_inventory_kanban__message_is_follower
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_request_kanban__message_is_follower
+msgid "Is Follower"
+msgstr "Є підписником"
+
+#. module: stock_request_kanban
+#: model:ir.ui.menu,name:stock_request_kanban.stock_request_kanban_menu
+msgid "Kanban cards"
+msgstr "Картки Kanban"
+
+#. module: stock_request_kanban
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_inventory_kanban__location_ids
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_request_kanban__location_id
+#: model_terms:ir.ui.view,arch_db:stock_request_kanban.stock_request_kanban_search
+msgid "Location"
+msgstr "Розташування"
+
+#. module: stock_request_kanban
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_inventory_kanban__message_ids
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_request_kanban__message_ids
+msgid "Messages"
+msgstr "Повідомлення"
+
+#. module: stock_request_kanban
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_inventory_kanban__name
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_request_kanban__name
+msgid "Name"
+msgstr "Назва"
+
+#. module: stock_request_kanban
+#: model:ir.model.fields,field_description:stock_request_kanban.field_wizard_stock_request_order_kanban__order_id
+msgid "Order"
+msgstr "Замовлення"
+
+#. module: stock_request_kanban
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_inventory_kanban__product_ids
+msgid "Products"
+msgstr "Товари"
+
+#. module: stock_request_kanban
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_request_kanban__product_uom_qty
+msgid "Quantity"
+msgstr "Кількість"
+
+#. module: stock_request_kanban
+#: model:ir.ui.menu,name:stock_request_kanban.menu_wizard_stock_request_kanban
+msgid "Request from Kanban cards"
+msgstr "Запит із карток Kanban"
+
+#. module: stock_request_kanban
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_request_kanban__route_id
+msgid "Route"
+msgstr "Маршрут"
+
+#. module: stock_request_kanban
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_request_kanban__route_ids
+msgid "Routes"
+msgstr "Маршрути"
+
+#. module: stock_request_kanban
+#: model_terms:ir.ui.view,arch_db:stock_request_kanban.view_stock_inventory_kanban_form
+msgid "Start"
+msgstr "Почати"
+
+#. module: stock_request_kanban
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_inventory_kanban__state
+msgid "State"
+msgstr "Стан"
+
+#. module: stock_request_kanban
+#: model:ir.model.fields,field_description:stock_request_kanban.field_wizard_stock_inventory_kanban__status
+#: model:ir.model.fields,field_description:stock_request_kanban.field_wizard_stock_request_kanban__status
+#: model:ir.model.fields,field_description:stock_request_kanban.field_wizard_stock_request_kanban_abstract__status
+#: model:ir.model.fields,field_description:stock_request_kanban.field_wizard_stock_request_order_kanban__status
+msgid "Status"
+msgstr "Статус"
+
+#. module: stock_request_kanban
+#: model:ir.model.fields,field_description:stock_request_kanban.field_wizard_stock_inventory_kanban__status_state
+#: model:ir.model.fields,field_description:stock_request_kanban.field_wizard_stock_request_kanban__status_state
+#: model:ir.model.fields,field_description:stock_request_kanban.field_wizard_stock_request_kanban_abstract__status_state
+#: model:ir.model.fields,field_description:stock_request_kanban.field_wizard_stock_request_order_kanban__status_state
+msgid "Status State"
+msgstr "Стан статусу"
+
+#. module: stock_request_kanban
+#: model_terms:ir.ui.view,arch_db:stock_request_kanban.view_stock_request_kanban_form
+msgid "Stock Requests"
+msgstr "Запити на запаси"
+
+#. module: stock_request_kanban
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_inventory_kanban__warehouse_ids
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_request_kanban__warehouse_id
+#: model_terms:ir.ui.view,arch_db:stock_request_kanban.stock_request_kanban_search
+msgid "Warehouse"
+msgstr "Склад"

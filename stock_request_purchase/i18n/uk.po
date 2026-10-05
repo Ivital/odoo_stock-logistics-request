@@ -12,3 +12,23 @@ msgstr ""
 #: model:ir.module.module,summary:base.module_stock_request_purchase
 msgid "Internal request for stock"
 msgstr "Внутрішній запит на складські запаси"
+
+#. module: stock_request_purchase
+#: model_terms:ir.ui.view,arch_db:stock_request_purchase.stock_request_order_form
+#: model_terms:ir.ui.view,arch_db:stock_request_purchase.view_stock_request_form
+msgid "Purchase"
+msgstr "Закупівля"
+
+#. module: stock_request_purchase
+#: model:ir.model.fields,field_description:stock_request_purchase.field_stock_request__purchase_line_ids
+#: model:ir.model.fields,field_description:stock_request_purchase.field_stock_request_order__purchase_line_ids
+msgid "Purchase Order Lines"
+msgstr "Рядки замовлень на закупівлю"
+
+#. module: stock_request_purchase
+#: model:ir.model.fields,field_description:stock_request_purchase.field_purchase_order__stock_request_ids
+#: model:ir.model.fields,field_description:stock_request_purchase.field_purchase_order_line__stock_request_ids
+#: model_terms:ir.ui.view,arch_db:stock_request_purchase.purchase_order_form
+#: model_terms:ir.ui.view,arch_db:stock_request_purchase.purchase_order_line_form2
+msgid "Stock Requests"
+msgstr "Запити на запаси"

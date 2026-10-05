@@ -12,3 +12,242 @@ msgstr ""
 #: model:ir.module.module,summary:base.module_stock_request
 msgid "Internal request for stock"
 msgstr "Внутрішній запит на складські запаси"
+
+#. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request__activity_ids
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_abstract__activity_ids
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_order__activity_ids
+msgid "Activities"
+msgstr "Дії"
+
+#. module: stock_request
+#: model:ir.model.fields.selection,name:stock_request.selection__stock_request__state__cancel
+#: model_terms:ir.ui.view,arch_db:stock_request.stock_request_order_search
+#: model_terms:ir.ui.view,arch_db:stock_request.stock_request_search
+msgid "Cancelled"
+msgstr "Скасовано"
+
+#. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request__allowed_uom_categ_id
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_abstract__allowed_uom_categ_id
+msgid "Category"
+msgstr "Категорія"
+
+#. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request__company_id
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_abstract__company_id
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_allocation__company_id
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_order__company_id
+msgid "Company"
+msgstr "Компанія"
+
+#. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request__create_uid
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_allocation__create_uid
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_order__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request__create_date
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_allocation__create_date
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_order__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request__display_name
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_allocation__display_name
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_order__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: stock_request
+#: model:ir.model.fields.selection,name:stock_request.selection__stock_request__state__done
+#: model_terms:ir.ui.view,arch_db:stock_request.view_stock_request_form
+msgid "Done"
+msgstr "Готово"
+
+#. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request__message_follower_ids
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_abstract__message_follower_ids
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_order__message_follower_ids
+msgid "Followers"
+msgstr "Підписники"
+
+#. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request__has_message
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_abstract__has_message
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_order__has_message
+msgid "Has Message"
+msgstr "Має повідомлення"
+
+#. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request__activity_exception_icon
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_abstract__activity_exception_icon
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_order__activity_exception_icon
+msgid "Icon"
+msgstr "Іконка"
+
+#. module: stock_request
+#: model:ir.model.fields.selection,name:stock_request.selection__stock_request__state__open
+msgid "In progress"
+msgstr "В роботі"
+
+#. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request__message_is_follower
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_abstract__message_is_follower
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_order__message_is_follower
+msgid "Is Follower"
+msgstr "Є підписником"
+
+#. module: stock_request
+#: model_terms:ir.ui.view,arch_db:stock_request.stock_request_order_form
+msgid "Items"
+msgstr "Елементи"
+
+#. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request__location_id
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_abstract__location_id
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_order__location_id
+#: model_terms:ir.ui.view,arch_db:stock_request.stock_request_order_search
+#: model_terms:ir.ui.view,arch_db:stock_request.stock_request_search
+msgid "Location"
+msgstr "Розташування"
+
+#. module: stock_request
+#: model:ir.ui.menu,name:stock_request.menu_stock_request_master_data
+msgid "Master Data"
+msgstr "Основні дані"
+
+#. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request__message_ids
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_abstract__message_ids
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_order__message_ids
+msgid "Messages"
+msgstr "Повідомлення"
+
+#. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request__name
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_abstract__name
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_order__name
+msgid "Name"
+msgstr "Назва"
+
+#. module: stock_request
+#: model:ir.ui.menu,name:stock_request.menu_stock_request_operations
+msgid "Operations"
+msgstr "Операції"
+
+#. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request__order_id
+msgid "Order"
+msgstr "Замовлення"
+
+#. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request__picking_ids
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_order__picking_ids
+msgid "Pickings"
+msgstr "Переміщення"
+
+#. module: stock_request
+#: model_terms:ir.ui.view,arch_db:stock_request.res_config_settings_view_form
+msgid "Purchases"
+msgstr "Закупівлі"
+
+#. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request__qty_done
+msgid "Qty Done"
+msgstr "Виконана кількість"
+
+#. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request__product_uom_qty
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_abstract__product_uom_qty
+msgid "Quantity"
+msgstr "Кількість"
+
+#. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request__requested_by
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_order__requested_by
+msgid "Requested By"
+msgstr "Запитав"
+
+#. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request__route_id
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_abstract__route_id
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_order__route_id
+#: model_terms:ir.ui.view,arch_db:stock_request.stock_request_search
+msgid "Route"
+msgstr "Маршрут"
+
+#. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request__route_ids
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_abstract__route_ids
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_order__route_ids
+msgid "Routes"
+msgstr "Маршрути"
+
+#. module: stock_request
+#: model:ir.actions.act_window,name:stock_request.action_stock_request_config
+#: model:ir.ui.menu,name:stock_request.menu_stock_request_config
+msgid "Settings"
+msgstr "Налаштування"
+
+#. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request__state
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_order__state
+#: model_terms:ir.ui.view,arch_db:stock_request.stock_request_search
+msgid "Status"
+msgstr "Статус"
+
+#. module: stock_request
+#: model:ir.model,name:stock_request.model_stock_move
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_allocation__stock_move_id
+msgid "Stock Move"
+msgstr "Складське переміщення"
+
+#. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request__move_ids
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_order__move_ids
+msgid "Stock Moves"
+msgstr "Складські переміщення"
+
+#. module: stock_request
+#: model:ir.actions.act_window,name:stock_request.stock_request_order_action
+#: model:ir.ui.menu,name:stock_request.stock_request_order_menu
+#: model_terms:ir.ui.view,arch_db:stock_request.stock_request_order_search
+msgid "Stock Request Orders"
+msgstr "Замовлення запитів на запаси"
+
+#. module: stock_request
+#: model:ir.actions.act_window,name:stock_request.action_stock_request_form
+#: model:ir.model.fields,field_description:stock_request.field_stock_move__stock_request_ids
+#: model:ir.model.fields,field_description:stock_request.field_stock_picking__stock_request_ids
+#: model:ir.ui.menu,name:stock_request.menu_stock_request
+#: model:ir.ui.menu,name:stock_request.menu_stock_request_root
+#: model_terms:ir.ui.view,arch_db:stock_request.stock_request_order_form
+#: model_terms:ir.ui.view,arch_db:stock_request.stock_request_search
+#: model_terms:ir.ui.view,arch_db:stock_request.view_picking_form
+msgid "Stock Requests"
+msgstr "Запити на запаси"
+
+#. module: stock_request
+#: model_terms:ir.ui.view,arch_db:stock_request.stock_request_order_form
+#: model_terms:ir.ui.view,arch_db:stock_request.view_stock_request_form
+msgid "Transfers"
+msgstr "Переміщення"
+
+#. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_allocation__product_uom_id
+msgid "UoM"
+msgstr "Од. вим."
+
+#. module: stock_request
+#: model:ir.model,name:stock_request.model_stock_warehouse
+#: model:ir.model.fields,field_description:stock_request.field_stock_request__warehouse_id
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_abstract__warehouse_id
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_order__warehouse_id
+#: model_terms:ir.ui.view,arch_db:stock_request.stock_request_order_search
+#: model_terms:ir.ui.view,arch_db:stock_request.stock_request_search
+msgid "Warehouse"
+msgstr "Склад"
