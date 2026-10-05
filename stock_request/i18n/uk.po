@@ -593,3 +593,209 @@ msgstr "Стан «Надіслано» у складських запитах"
 #: model:ir.model.fields,field_description:stock_request.field_stock_request_order__website_message_ids
 msgid "Website Messages"
 msgstr "Повідомлення вебсайту"
+
+#. module: stock_request
+#: model_terms:ir.ui.view,arch_db:stock_request.res_config_settings_view_form
+msgid "Activates Stock Request Orders"
+msgstr "Активує замовлення запитів запасів"
+
+#. module: stock_request
+#: model_terms:ir.ui.view,arch_db:stock_request.res_config_settings_view_form
+msgid "Add State to Stock Request and Stock Request Orders if activated."
+msgstr "Додати стан до запиту запасів і замовлень запитів, якщо активовано."
+
+#. module: stock_request
+#: model_terms:ir.ui.view,arch_db:stock_request.res_config_settings_view_form
+msgid "Allow All Locations Types"
+msgstr "Дозволити всі типи місць"
+
+#. module: stock_request
+#: model_terms:ir.ui.view,arch_db:stock_request.res_config_settings_view_form
+msgid "Analytic accounting in Stock Requests"
+msgstr "Аналітичний облік у запитах запасів"
+
+#. module: stock_request
+#: model_terms:ir.ui.view,arch_db:stock_request.res_config_settings_view_form
+msgid ""
+"By default only internal and transit locations are allowed in Stock Request "
+"and Orders."
+msgstr ""
+"За замовчуванням у складських запитах і замовленнях дозволено лише внутрішні"
+" та транзитні місця."
+
+#. module: stock_request
+#: model_terms:ir.ui.view,arch_db:stock_request.res_config_settings_view_form
+msgid "By default, available stock is not used"
+msgstr "За замовчуванням доступний запас не використовується"
+
+#. module: stock_request
+#: model_terms:ir.actions.act_window,help:stock_request.action_stock_request_form
+msgid "Click to add a Stock Request."
+msgstr "Натисніть, щоб додати запит запасів."
+
+#. module: stock_request
+#: model:ir.model.fields,help:stock_request.field_stock_request__allowed_uom_categ_id
+#: model:ir.model.fields,help:stock_request.field_stock_request_abstract__allowed_uom_categ_id
+msgid ""
+"Conversion between Units of Measure can only occur if they belong to the "
+"same category. The conversion will be made based on the ratios."
+msgstr ""
+"Перетворення між одиницями вимірювання можливе лише тоді, коли вони належать"
+" до однієї категорії. Перетворення виконується на основі коефіцієнтів."
+
+#. module: stock_request
+#: model_terms:ir.ui.view,arch_db:stock_request.res_config_settings_view_form
+msgid "Enable Analytic Accounting in Stock Requests"
+msgstr "Увімкнути аналітичний облік у запитах запасів"
+
+#. module: stock_request
+#: model_terms:ir.ui.view,arch_db:stock_request.res_config_settings_view_form
+msgid "Enable Stock Requests Kanban cards"
+msgstr "Увімкнути канбан-картки запитів запасів"
+
+#. module: stock_request
+#: model_terms:ir.ui.view,arch_db:stock_request.res_config_settings_view_form
+msgid "Enable Stock Requests for Manufacturing"
+msgstr "Увімкнути запити запасів для виробництва"
+
+#. module: stock_request
+#: model_terms:ir.ui.view,arch_db:stock_request.res_config_settings_view_form
+msgid "Enable Stock Requests for Purchases"
+msgstr "Увімкнути складські запити для закупівель"
+
+#. module: stock_request
+#: model_terms:ir.ui.view,arch_db:stock_request.res_config_settings_view_form
+msgid "Enable Submitted State"
+msgstr "Увімкнути стан «Надіслано»"
+
+#. module: stock_request
+#: model:ir.model.fields,help:stock_request.field_stock_request__activity_type_icon
+#: model:ir.model.fields,help:stock_request.field_stock_request_abstract__activity_type_icon
+#: model:ir.model.fields,help:stock_request.field_stock_request_order__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "Піктограма Font Awesome, наприклад fa-tasks"
+
+#. module: stock_request
+#: model:ir.model.fields,help:stock_request.field_stock_request__activity_exception_icon
+#: model:ir.model.fields,help:stock_request.field_stock_request_abstract__activity_exception_icon
+#: model:ir.model.fields,help:stock_request.field_stock_request_order__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "Піктограма для позначення дії-винятку."
+
+#. module: stock_request
+#: model:ir.model.fields,help:stock_request.field_stock_request__message_needaction
+#: model:ir.model.fields,help:stock_request.field_stock_request_abstract__message_needaction
+#: model:ir.model.fields,help:stock_request.field_stock_request_order__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Якщо позначено, нові повідомлення потребують вашої уваги."
+
+#. module: stock_request
+#: model:ir.model.fields,help:stock_request.field_stock_request__message_has_error
+#: model:ir.model.fields,help:stock_request.field_stock_request_abstract__message_has_error
+#: model:ir.model.fields,help:stock_request.field_stock_request_order__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Якщо позначено, деякі повідомлення мають помилку доставки."
+
+#. module: stock_request
+#: model:ir.model.fields,help:stock_request.field_stock_request__procurement_group_id
+#: model:ir.model.fields,help:stock_request.field_stock_request_abstract__procurement_group_id
+#: model:ir.model.fields,help:stock_request.field_stock_request_order__procurement_group_id
+msgid ""
+"Moves created through this stock request will be put in this procurement "
+"group. If none is given, the moves generated by procurement rules will be "
+"grouped into one big picking."
+msgstr ""
+"Переміщення, створені через цей запит на склад, буде додано до цієї групи "
+"забезпечення. Якщо групу не задано, переміщення, створені правилами "
+"забезпечення, буде згруповано в одне велике переміщення."
+
+#. module: stock_request
+#: model:ir.model.constraint,message:stock_request.constraint_stock_request_abstract_name_uniq
+#: model:ir.model.constraint,message:stock_request.constraint_stock_request_kanban_name_uniq
+msgid "Name must be unique"
+msgstr "Назва має бути унікальною"
+
+#. module: stock_request
+#: model:ir.model.fields,help:stock_request.field_stock_request__message_needaction_counter
+#: model:ir.model.fields,help:stock_request.field_stock_request_abstract__message_needaction_counter
+#: model:ir.model.fields,help:stock_request.field_stock_request_order__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Кількість повідомлень, що потребують дії"
+
+#. module: stock_request
+#: model:ir.model.fields,help:stock_request.field_stock_request__message_has_error_counter
+#: model:ir.model.fields,help:stock_request.field_stock_request_abstract__message_has_error_counter
+#: model:ir.model.fields,help:stock_request.field_stock_request_order__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Кількість повідомлень із помилкою доставки"
+
+#. module: stock_request
+#: model_terms:ir.ui.view,arch_db:stock_request.res_config_settings_view_form
+msgid "Orders &amp; Configuration"
+msgstr "Замовлення та конфігурація"
+
+#. module: stock_request
+#: model:ir.model.fields,help:stock_request.field_stock_request__product_qty
+#: model:ir.model.fields,help:stock_request.field_stock_request_abstract__product_qty
+msgid "Quantity in the default UoM of the product"
+msgstr "Кількість у типовій одиниці вимірювання товару"
+
+#. module: stock_request
+#: model:ir.model.fields,help:stock_request.field_stock_request__product_uom_qty
+#: model:ir.model.fields,help:stock_request.field_stock_request_abstract__product_uom_qty
+msgid "Quantity, specified in the unit of measure indicated in the request."
+msgstr "Кількість, указана в одиниці вимірювання, зазначеній у запиті."
+
+#. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_allocation__requested_product_uom_qty
+msgid "Requested Quantity (UoM)"
+msgstr "Запитана кількість (од. виміру)"
+
+#. module: stock_request
+#: model:ir.model.fields,help:stock_request.field_stock_request__activity_state
+#: model:ir.model.fields,help:stock_request.field_stock_request_abstract__activity_state
+#: model:ir.model.fields,help:stock_request.field_stock_request_order__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"Стан на основі дій\n"
+"Прострочено: строк уже минув\n"
+"Сьогодні: дата дії — сьогодні\n"
+"Заплановано: майбутні дії."
+
+#. module: stock_request
+#: model_terms:ir.ui.view,arch_db:stock_request.stock_request_order_form
+msgid "Stock request Order"
+msgstr "Замовлення запиту запасів"
+
+#. module: stock_request
+#: model:ir.model.fields,help:stock_request.field_stock_request__activity_exception_decoration
+#: model:ir.model.fields,help:stock_request.field_stock_request_abstract__activity_exception_decoration
+#: model:ir.model.fields,help:stock_request.field_stock_request_order__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "Тип дії-винятку для запису."
+
+#. module: stock_request
+#: model_terms:ir.ui.view,arch_db:stock_request.res_config_settings_view_form
+msgid "Use Kanban cards for consumable products"
+msgstr "Використовувати канбан-картки для витратних товарів"
+
+#. module: stock_request
+#: model_terms:ir.ui.view,arch_db:stock_request.res_config_settings_view_form
+msgid "Use Manufacturing Orders with Stock Requests"
+msgstr "Використовувати виробничі замовлення із запитами запасів"
+
+#. module: stock_request
+#: model_terms:ir.ui.view,arch_db:stock_request.res_config_settings_view_form
+msgid "Use Purchases with Stock Requests"
+msgstr "Використовувати закупівлі із запитами запасів"
+
+#. module: stock_request
+#: model:ir.model.fields,help:stock_request.field_stock_request__website_message_ids
+#: model:ir.model.fields,help:stock_request.field_stock_request_abstract__website_message_ids
+#: model:ir.model.fields,help:stock_request.field_stock_request_order__website_message_ids
+msgid "Website communication history"
+msgstr "Історія комунікації через вебсайт"

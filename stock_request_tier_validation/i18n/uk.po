@@ -114,3 +114,20 @@ msgstr "Перевірене повідомлення"
 #: model:ir.model.fields,field_description:stock_request_tier_validation.field_stock_request_order__validation_status
 msgid "Validation Status"
 msgstr "Статус перевірки"
+
+#. module: stock_request_tier_validation
+#: model:ir.model.fields,help:stock_request_tier_validation.field_stock_request__has_comment
+#: model:ir.model.fields,help:stock_request_tier_validation.field_stock_request_order__has_comment
+msgid "If set, Allow the reviewer to leave a comment on the review."
+msgstr ""
+"Якщо встановлено, дозволити рецензенту залишати коментар до перевірки."
+
+#. module: stock_request_tier_validation
+#: model_terms:ir.ui.view,arch_db:stock_request_tier_validation.view_stock_request_order_filter
+msgid "My Stock Request Orders to review"
+msgstr "Мої замовлення запитів запасів на перегляд"
+
+#. module: stock_request_tier_validation
+#: model_terms:ir.ui.view,arch_db:stock_request_tier_validation.view_stock_request_filter
+msgid "My Stock Requests to review"
+msgstr "Мої запити запасів на перегляд"

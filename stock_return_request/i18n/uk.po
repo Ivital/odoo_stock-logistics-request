@@ -405,3 +405,142 @@ msgstr "Підтвердити"
 #: model:ir.model.fields,field_description:stock_return_request.field_stock_return_request__website_message_ids
 msgid "Website Messages"
 msgstr "Повідомлення вебсайту"
+
+#. module: stock_return_request
+#: model_terms:ir.ui.view,arch_db:stock_return_request.report_stock_return_request_document
+msgid ""
+"<span>\n"
+"                                    <strong>Supplier Address:</strong>\n"
+"                                </span>"
+msgstr ""
+"<span>\n"
+"                                    <strong>Адреса постачальника:</strong>\n"
+"                                </span>"
+
+#. module: stock_return_request
+#: model_terms:ir.ui.view,arch_db:stock_return_request.view_stock_return_request_form
+msgid "Add a note that will be printed on the Request report"
+msgstr "Додати примітку, що друкуватиметься у звіті запиту"
+
+#. module: stock_return_request
+#: model:ir.model.fields,help:stock_return_request.field_stock_return_request_line__product_uom_id
+msgid "Default unit of measure used for all stock operations."
+msgstr "Типова одиниця вимірювання для всіх складських операцій."
+
+#. module: stock_return_request
+#: model:ir.model.fields,help:stock_return_request.field_stock_return_request_line__tracking
+msgid "Ensure the traceability of a storable product in your warehouse."
+msgstr "Забезпечує простежуваність складованого товару на вашому складі."
+
+#. module: stock_return_request
+#: model:ir.model.fields,help:stock_return_request.field_stock_return_request__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "Піктограма Font Awesome, наприклад fa-tasks"
+
+#. module: stock_return_request
+#: model:ir.model.fields,help:stock_return_request.field_stock_return_request__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "Піктограма для позначення дії-винятку."
+
+#. module: stock_return_request
+#: model:ir.model.fields,help:stock_return_request.field_stock_return_request__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Якщо позначено, нові повідомлення потребують вашої уваги."
+
+#. module: stock_return_request
+#: model:ir.model.fields,help:stock_return_request.field_stock_return_request__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Якщо позначено, деякі повідомлення мають помилку доставки."
+
+#. module: stock_return_request
+#: model:ir.model.fields,help:stock_return_request.field_stock_return_request__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Кількість повідомлень, що потребують дії"
+
+#. module: stock_return_request
+#: model:ir.model.fields,help:stock_return_request.field_stock_return_request__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Кількість повідомлень із помилкою доставки"
+
+#. module: stock_return_request
+#: model_terms:ir.ui.view,arch_db:stock_return_request.view_stock_return_request_form
+msgid "Products to Return"
+msgstr "Товари для повернення"
+
+#. module: stock_return_request
+#: model:ir.model.fields,field_description:stock_return_request.field_stock_return_request_line__quantity
+msgid "Quantiy to return"
+msgstr "Кількість для повернення"
+
+#. module: stock_return_request
+#: model:ir.model.fields.selection,name:stock_return_request.selection__stock_return_request__return_type__customer
+msgid "Return from Customer"
+msgstr "Повернення від клієнта"
+
+#. module: stock_return_request
+#: model:ir.model.fields.selection,name:stock_return_request.selection__stock_return_request__return_type__internal
+msgid "Return to Internal location"
+msgstr "Повернути у внутрішнє місце"
+
+#. module: stock_return_request
+#: model:ir.model.fields.selection,name:stock_return_request.selection__stock_return_request__return_type__supplier
+msgid "Return to Supplier"
+msgstr "Повернути постачальнику"
+
+#. module: stock_return_request
+#: model:ir.model.fields,field_description:stock_return_request.field_stock_return_request_line__returnable_move_ids
+msgid "Returnable Move Lines"
+msgstr "Рядки руху, які можна повернути"
+
+#. module: stock_return_request
+#: model:ir.model.fields,field_description:stock_return_request.field_stock_move__qty_returnable
+msgid "Returnable Quantity"
+msgstr "Кількість, яку можна повернути"
+
+#. module: stock_return_request
+#: model:ir.model.fields,field_description:stock_return_request.field_stock_return_request__returned_picking_ids
+msgid "Returned Pickings"
+msgstr "Повернені комплектування"
+
+#. module: stock_return_request
+#: model:ir.model.fields,field_description:stock_return_request.field_stock_return_request__from_date
+msgid "Search moves up to this date"
+msgstr "Пошук переміщень до цієї дати"
+
+#. module: stock_return_request
+#: model:ir.model.fields,help:stock_return_request.field_stock_return_request__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"Стан на основі дій\n"
+"Прострочено: строк уже минув\n"
+"Сьогодні: дата дії — сьогодні\n"
+"Заплановано: майбутні дії."
+
+#. module: stock_return_request
+#: model:ir.model.fields,field_description:stock_return_request.field_stock_picking__stock_return_request_id
+msgid "Stock Return Request"
+msgstr "Запит на повернення запасів"
+
+#. module: stock_return_request
+#: model:ir.actions.report,name:stock_return_request.action_report_stock_return_request
+msgid "Stock Return Request Report"
+msgstr "Звіт запиту на повернення запасів"
+
+#. module: stock_return_request
+#: model:ir.actions.act_window,name:stock_return_request.act_stock_return_request_line_suggest_lot
+msgid "Suggested Lots for this Return Request Line"
+msgstr "Запропоновані партії для цього рядка запиту повернення"
+
+#. module: stock_return_request
+#: model:ir.model.fields,help:stock_return_request.field_stock_return_request__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "Тип дії-винятку для запису."
+
+#. module: stock_return_request
+#: model:ir.model.fields,help:stock_return_request.field_stock_return_request__website_message_ids
+msgid "Website communication history"
+msgstr "Історія комунікації через вебсайт"
