@@ -206,3 +206,272 @@ msgstr "Запити на запаси"
 #: model_terms:ir.ui.view,arch_db:stock_request_kanban.stock_request_kanban_search
 msgid "Warehouse"
 msgstr "Склад"
+
+#. module: stock_request_kanban
+#: model:ir.model.fields,field_description:stock_request_kanban.field_product_product__kanban_card_count
+#: model:ir.model.fields,field_description:stock_request_kanban.field_product_template__kanban_card_count
+msgid "# Kanban Cards"
+msgstr "Кількість карток Kanban"
+
+#. module: stock_request_kanban
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_inventory_kanban__message_needaction
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_request_kanban__message_needaction
+msgid "Action Needed"
+msgstr "Потрібна дія"
+
+#. module: stock_request_kanban
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_inventory_kanban__activity_exception_decoration
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_request_kanban__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "Оформлення винятку дії"
+
+#. module: stock_request_kanban
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_inventory_kanban__activity_state
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_request_kanban__activity_state
+msgid "Activity State"
+msgstr "Стан дії"
+
+#. module: stock_request_kanban
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_inventory_kanban__activity_type_icon
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_request_kanban__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "Піктограма типу дії"
+
+#. module: stock_request_kanban
+#: model:ir.actions.act_window,name:stock_request_kanban.wizard_stock_inventory_kanban_action
+#: model:ir.actions.act_window,name:stock_request_kanban.wizard_stock_request_kanban_action
+#: model:ir.actions.act_window,name:stock_request_kanban.wizard_stock_request_order_kanban_action
+#: model_terms:ir.ui.view,arch_db:stock_request_kanban.wizard_stock_inventory_kanban_form
+#: model_terms:ir.ui.view,arch_db:stock_request_kanban.wizard_stock_request_kanban_form
+msgid "Add Kanban"
+msgstr "Додати Kanban"
+
+#. module: stock_request_kanban
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_request_kanban__allow_virtual_location
+msgid "Allow Virtual locations on Stock Requests"
+msgstr "Дозволити віртуальні місця у складських запитах"
+
+#. module: stock_request_kanban
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_inventory_kanban__message_attachment_count
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_request_kanban__message_attachment_count
+msgid "Attachment Count"
+msgstr "Кількість вкладень"
+
+#. module: stock_request_kanban
+#: model:ir.model.fields,field_description:stock_request_kanban.field_wizard_stock_inventory_kanban___barcode_scanned
+#: model:ir.model.fields,field_description:stock_request_kanban.field_wizard_stock_request_kanban___barcode_scanned
+#: model:ir.model.fields,field_description:stock_request_kanban.field_wizard_stock_request_kanban_abstract___barcode_scanned
+#: model:ir.model.fields,field_description:stock_request_kanban.field_wizard_stock_request_order_kanban___barcode_scanned
+msgid "Barcode Scanned"
+msgstr "Штрихкод відскановано"
+
+#. module: stock_request_kanban
+#: model_terms:ir.ui.view,arch_db:stock_request_kanban.view_stock_inventory_kanban_form
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: stock_request_kanban
+#: model_terms:ir.ui.view,arch_db:stock_request_kanban.view_stock_inventory_kanban_form
+#: model_terms:ir.ui.view,arch_db:stock_request_kanban.wizard_stock_inventory_kanban_form
+#: model_terms:ir.ui.view,arch_db:stock_request_kanban.wizard_stock_request_kanban_form
+msgid "Close"
+msgstr "Закрити"
+
+#. module: stock_request_kanban
+#: model:ir.model.fields.selection,name:stock_request_kanban.selection__stock_inventory_kanban__state__draft
+msgid "Draft"
+msgstr "Чернетка"
+
+#. module: stock_request_kanban
+#: model_terms:ir.ui.view,arch_db:stock_request_kanban.view_stock_inventory_kanban_form
+msgid "Finish"
+msgstr "Завершити"
+
+#. module: stock_request_kanban
+#: model:ir.model.fields.selection,name:stock_request_kanban.selection__stock_inventory_kanban__state__finished
+msgid "Finished"
+msgstr "Завершено"
+
+#. module: stock_request_kanban
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_inventory_kanban__message_partner_ids
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_request_kanban__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Підписники (контрагенти)"
+
+#. module: stock_request_kanban
+#: model_terms:ir.ui.view,arch_db:stock_request_kanban.stock_request_kanban_search
+msgid "Group By"
+msgstr "Групувати за"
+
+#. module: stock_request_kanban
+#: model:ir.model.fields,field_description:stock_request_kanban.field_wizard_stock_inventory_kanban__inventory_kanban_id
+#: model_terms:ir.ui.view,arch_db:stock_request_kanban.view_stock_inventory_kanban_form
+msgid "Inventory Kanban"
+msgstr "Kanban інвентаризації"
+
+#. module: stock_request_kanban
+#: model_terms:ir.ui.view,arch_db:stock_request_kanban.product_product_form_view_kanban_card_button
+#: model_terms:ir.ui.view,arch_db:stock_request_kanban.product_template_form_view_bom_button
+msgid "Kanban Cards"
+msgstr "Картки Kanban"
+
+#. module: stock_request_kanban
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_inventory_kanban__write_uid
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_request_kanban__write_uid
+#: model:ir.model.fields,field_description:stock_request_kanban.field_wizard_stock_inventory_kanban__write_uid
+#: model:ir.model.fields,field_description:stock_request_kanban.field_wizard_stock_request_kanban__write_uid
+#: model:ir.model.fields,field_description:stock_request_kanban.field_wizard_stock_request_order_kanban__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: stock_request_kanban
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_inventory_kanban__write_date
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_request_kanban__write_date
+#: model:ir.model.fields,field_description:stock_request_kanban.field_wizard_stock_inventory_kanban__write_date
+#: model:ir.model.fields,field_description:stock_request_kanban.field_wizard_stock_request_kanban__write_date
+#: model:ir.model.fields,field_description:stock_request_kanban.field_wizard_stock_request_order_kanban__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: stock_request_kanban
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_inventory_kanban__message_has_error
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_request_kanban__message_has_error
+msgid "Message Delivery error"
+msgstr "Помилка доставки повідомлення"
+
+#. module: stock_request_kanban
+#: model_terms:ir.ui.view,arch_db:stock_request_kanban.view_stock_inventory_kanban_form
+msgid "Missing"
+msgstr "Відсутнє"
+
+#. module: stock_request_kanban
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_inventory_kanban__missing_kanban_ids
+msgid "Missing Kanban"
+msgstr "Відсутній Kanban"
+
+#. module: stock_request_kanban
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_inventory_kanban__count_missing_kanbans
+msgid "Missing Kanbans"
+msgstr "Відсутні Kanban"
+
+#. module: stock_request_kanban
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_inventory_kanban__my_activity_date_deadline
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_request_kanban__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "Кінцевий термін моєї дії"
+
+#. module: stock_request_kanban
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_inventory_kanban__activity_date_deadline
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_request_kanban__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "Кінцевий термін наступної дії"
+
+#. module: stock_request_kanban
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_inventory_kanban__activity_summary
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_request_kanban__activity_summary
+msgid "Next Activity Summary"
+msgstr "Підсумок наступної дії"
+
+#. module: stock_request_kanban
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_inventory_kanban__activity_type_id
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_request_kanban__activity_type_id
+msgid "Next Activity Type"
+msgstr "Тип наступної дії"
+
+#. module: stock_request_kanban
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_inventory_kanban__message_needaction_counter
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_request_kanban__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Кількість дій"
+
+#. module: stock_request_kanban
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_inventory_kanban__message_has_error_counter
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_request_kanban__message_has_error_counter
+msgid "Number of errors"
+msgstr "Кількість помилок"
+
+#. module: stock_request_kanban
+#: model:ir.actions.report,name:stock_request_kanban.action_report_kanban
+msgid "Print kanban"
+msgstr "Друкувати канбан"
+
+#. module: stock_request_kanban
+#: model_terms:ir.ui.view,arch_db:stock_request_kanban.view_stock_inventory_kanban_form
+msgid "Print missing"
+msgstr "Друкувати відсутні"
+
+#. module: stock_request_kanban
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_request_kanban__procurement_group_id
+msgid "Procurement Group"
+msgstr "Група забезпечення"
+
+#. module: stock_request_kanban
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_request_kanban__product_template_id
+msgid "Product Template"
+msgstr "Шаблон товару"
+
+#. module: stock_request_kanban
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_request_kanban__product_uom_id
+msgid "Product Unit of Measure"
+msgstr "Одиниця вимірювання товару"
+
+#. module: stock_request_kanban
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_request_kanban__product_qty
+msgid "Real Quantity"
+msgstr "Фактична кількість"
+
+#. module: stock_request_kanban
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_inventory_kanban__activity_user_id
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_request_kanban__activity_user_id
+msgid "Responsible User"
+msgstr "Відповідальний користувач"
+
+#. module: stock_request_kanban
+#: model_terms:ir.ui.view,arch_db:stock_request_kanban.stock_request_order_form
+#: model_terms:ir.ui.view,arch_db:stock_request_kanban.view_stock_inventory_kanban_form
+msgid "Scan"
+msgstr "Сканувати"
+
+#. module: stock_request_kanban
+#: model_terms:ir.ui.view,arch_db:stock_request_kanban.view_stock_request_tree
+msgid "Scan Kanban"
+msgstr "Сканувати Kanban"
+
+#. module: stock_request_kanban
+#: model_terms:ir.ui.view,arch_db:stock_request_kanban.view_stock_inventory_kanban_form
+msgid "Scanned"
+msgstr "Відскановано"
+
+#. module: stock_request_kanban
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_inventory_kanban__scanned_kanban_ids
+msgid "Scanned Kanban"
+msgstr "Відсканований Kanban"
+
+#. module: stock_request_kanban
+#: model_terms:ir.ui.view,arch_db:stock_request_kanban.view_stock_inventory_kanban_form
+msgid "Set to draft"
+msgstr "Повернути в чернетку"
+
+#. module: stock_request_kanban
+#: model_terms:ir.ui.view,arch_db:stock_request_kanban.view_stock_inventory_kanban_form
+msgid "Stock Inventories"
+msgstr "Інвентаризації запасів"
+
+#. module: stock_request_kanban
+#: model:ir.model,name:stock_request_kanban.model_stock_request
+#: model:ir.model.fields,field_description:stock_request_kanban.field_wizard_stock_request_kanban__stock_request_id
+#: model:ir.model.fields,field_description:stock_request_kanban.field_wizard_stock_request_order_kanban__stock_request_id
+msgid "Stock Request"
+msgstr "Запит на склад"
+
+#. module: stock_request_kanban
+#: model:ir.model,name:stock_request_kanban.model_stock_request_kanban
+#: model_terms:ir.ui.view,arch_db:stock_request_kanban.view_stock_request_kanban_form
+msgid "Stock Request Kanban"
+msgstr "Kanban складських запитів"
+
+#. module: stock_request_kanban
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_inventory_kanban__website_message_ids
+#: model:ir.model.fields,field_description:stock_request_kanban.field_stock_request_kanban__website_message_ids
+msgid "Website Messages"
+msgstr "Повідомлення вебсайту"

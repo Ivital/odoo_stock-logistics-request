@@ -32,3 +32,20 @@ msgstr "Рядки замовлень на закупівлю"
 #: model_terms:ir.ui.view,arch_db:stock_request_purchase.purchase_order_line_form2
 msgid "Stock Requests"
 msgstr "Запити на запаси"
+
+#. module: stock_request_purchase
+#: model:ir.model.fields,field_description:stock_request_purchase.field_stock_request__purchase_count
+#: model:ir.model.fields,field_description:stock_request_purchase.field_stock_request_order__purchase_count
+msgid "Purchase Count"
+msgstr "Кількість закупівель"
+
+#. module: stock_request_purchase
+#: model:ir.model.fields,field_description:stock_request_purchase.field_stock_request__purchase_ids
+#: model:ir.model.fields,field_description:stock_request_purchase.field_stock_request_order__purchase_ids
+msgid "Purchase Orders"
+msgstr "Замовлення на закупівлю"
+
+#. module: stock_request_purchase
+#: model:ir.model.fields,field_description:stock_request_purchase.field_purchase_order__stock_request_count
+msgid "Stock Request #"
+msgstr "Запит на склад №"

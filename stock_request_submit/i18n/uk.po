@@ -22,3 +22,14 @@ msgstr "Маршрут"
 #: model:ir.model.fields,field_description:stock_request_submit.field_stock_request__state
 msgid "Status"
 msgstr "Статус"
+
+#. module: stock_request_submit
+#: model_terms:ir.ui.view,arch_db:stock_request_submit.stock_request_order_form
+#: model_terms:ir.ui.view,arch_db:stock_request_submit.view_stock_request_form
+msgid "Submit"
+msgstr "Надіслати"
+
+#. module: stock_request_submit
+#: model:ir.model.fields.selection,name:stock_request_submit.selection__stock_request__state__submitted
+msgid "Submitted"
+msgstr "Надіслано"

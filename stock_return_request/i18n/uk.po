@@ -163,3 +163,245 @@ msgstr "Відстеження"
 #: model:ir.model.fields,field_description:stock_return_request.field_suggest_return_request_lot_line__wizard_id
 msgid "Wizard"
 msgstr "Майстер"
+
+#. module: stock_return_request
+#: model_terms:ir.ui.view,arch_db:stock_return_request.report_stock_return_request_document
+msgid ""
+"<span>\n"
+"                                    <strong>Customer Address:</strong>\n"
+"                                </span>"
+msgstr ""
+"<span>\n"
+"                                    <strong>Адреса клієнта:</strong>\n"
+"                                </span>"
+
+#. module: stock_return_request
+#: model_terms:ir.ui.view,arch_db:stock_return_request.stock_move_lines_to_return
+msgid "<strong>Product</strong>"
+msgstr "<strong>Товар</strong>"
+
+#. module: stock_return_request
+#: model_terms:ir.ui.view,arch_db:stock_return_request.stock_move_lines_to_return
+msgid "<strong>Quantity</strong>"
+msgstr "<strong>Кількість</strong>"
+
+#. module: stock_return_request
+#: model_terms:ir.ui.view,arch_db:stock_return_request.stock_return_request_line_suggest_lot
+msgid "Accept"
+msgstr "Прийняти"
+
+#. module: stock_return_request
+#: model:ir.model.fields,field_description:stock_return_request.field_stock_return_request__message_needaction
+msgid "Action Needed"
+msgstr "Потрібна дія"
+
+#. module: stock_return_request
+#: model:ir.model.fields,field_description:stock_return_request.field_stock_return_request__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "Оформлення винятку дії"
+
+#. module: stock_return_request
+#: model:ir.model.fields,field_description:stock_return_request.field_stock_return_request__activity_state
+msgid "Activity State"
+msgstr "Стан дії"
+
+#. module: stock_return_request
+#: model:ir.model.fields,field_description:stock_return_request.field_stock_return_request__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "Піктограма типу дії"
+
+#. module: stock_return_request
+#: model:ir.model.fields,field_description:stock_return_request.field_stock_return_request__message_attachment_count
+msgid "Attachment Count"
+msgstr "Кількість вкладень"
+
+#. module: stock_return_request
+#: model_terms:ir.ui.view,arch_db:stock_return_request.stock_return_request_line_suggest_lot
+#: model_terms:ir.ui.view,arch_db:stock_return_request.view_stock_return_request_form
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: stock_return_request
+#: model_terms:ir.ui.view,arch_db:stock_return_request.view_stock_return_request_form
+msgid "Confirm"
+msgstr "Підтвердити"
+
+#. module: stock_return_request
+#: model:ir.model.fields,field_description:stock_return_request.field_stock_return_request__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Підписники (контрагенти)"
+
+#. module: stock_return_request
+#: model:ir.model.fields,field_description:stock_return_request.field_stock_return_request__write_uid
+#: model:ir.model.fields,field_description:stock_return_request.field_stock_return_request_line__write_uid
+#: model:ir.model.fields,field_description:stock_return_request.field_suggest_return_request_lot__write_uid
+#: model:ir.model.fields,field_description:stock_return_request.field_suggest_return_request_lot_line__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: stock_return_request
+#: model:ir.model.fields,field_description:stock_return_request.field_stock_return_request__write_date
+#: model:ir.model.fields,field_description:stock_return_request.field_stock_return_request_line__write_date
+#: model:ir.model.fields,field_description:stock_return_request.field_suggest_return_request_lot__write_date
+#: model:ir.model.fields,field_description:stock_return_request.field_suggest_return_request_lot_line__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: stock_return_request
+#: model:ir.model.fields,field_description:stock_return_request.field_stock_return_request_line__lot_id
+msgid "Lot / Serial"
+msgstr "Партія / серійний номер"
+
+#. module: stock_return_request
+#: model:ir.model.fields,field_description:stock_return_request.field_suggest_return_request_lot__lot_suggestion_mode
+#: model:ir.model.fields,field_description:stock_return_request.field_suggest_return_request_lot_line__lot_suggestion_mode
+msgid "Lot Suggestion Mode"
+msgstr "Режим пропозиції партії"
+
+#. module: stock_return_request
+#: model_terms:ir.ui.view,arch_db:stock_return_request.stock_move_lines_to_return
+msgid "Lot/Serial Number"
+msgstr "Партія/серійний номер"
+
+#. module: stock_return_request
+#: model:ir.model.fields,field_description:stock_return_request.field_stock_return_request_line__max_quantity
+msgid "Maximum available quantity"
+msgstr "Максимальна доступна кількість"
+
+#. module: stock_return_request
+#: model:ir.model.fields,field_description:stock_return_request.field_stock_return_request__message_has_error
+msgid "Message Delivery error"
+msgstr "Помилка доставки повідомлення"
+
+#. module: stock_return_request
+#: model:ir.model.fields,field_description:stock_return_request.field_stock_return_request__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "Кінцевий термін моєї дії"
+
+#. module: stock_return_request
+#. odoo-python
+#: code:addons/stock_return_request/models/stock_return_request.py:0
+msgid "New"
+msgstr "Новий"
+
+#. module: stock_return_request
+#: model:ir.model.fields.selection,name:stock_return_request.selection__stock_return_request__return_order__date_desc,_id_desc
+msgid "Newer first"
+msgstr "Новіші спочатку"
+
+#. module: stock_return_request
+#: model:ir.model.fields,field_description:stock_return_request.field_stock_return_request__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "Кінцевий термін наступної дії"
+
+#. module: stock_return_request
+#: model:ir.model.fields,field_description:stock_return_request.field_stock_return_request__activity_summary
+msgid "Next Activity Summary"
+msgstr "Підсумок наступної дії"
+
+#. module: stock_return_request
+#: model:ir.model.fields,field_description:stock_return_request.field_stock_return_request__activity_type_id
+msgid "Next Activity Type"
+msgstr "Тип наступної дії"
+
+#. module: stock_return_request
+#: model:ir.model.fields,field_description:stock_return_request.field_stock_return_request__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Кількість дій"
+
+#. module: stock_return_request
+#: model:ir.model.fields,field_description:stock_return_request.field_stock_return_request__message_has_error_counter
+msgid "Number of errors"
+msgstr "Кількість помилок"
+
+#. module: stock_return_request
+#: model:ir.model.fields.selection,name:stock_return_request.selection__stock_return_request__return_order__date_asc,_id_desc
+msgid "Older first"
+msgstr "Старіші спочатку"
+
+#. module: stock_return_request
+#: model:ir.model.fields,field_description:stock_return_request.field_stock_return_request__picking_types
+msgid "Operation types"
+msgstr "Типи операцій"
+
+#. module: stock_return_request
+#: model:ir.model.fields,field_description:stock_return_request.field_suggest_return_request_lot__request_line_id
+msgid "Request Line"
+msgstr "Рядок запиту"
+
+#. module: stock_return_request
+#: model:ir.model.fields,field_description:stock_return_request.field_stock_return_request__activity_user_id
+msgid "Responsible User"
+msgstr "Відповідальний користувач"
+
+#. module: stock_return_request
+#: model_terms:ir.ui.view,arch_db:stock_return_request.view_stock_return_request_form
+msgid "Return Line"
+msgstr "Рядок повернення"
+
+#. module: stock_return_request
+#: model:ir.model.fields,field_description:stock_return_request.field_stock_return_request__return_order
+msgid "Return Order"
+msgstr "Замовлення на повернення"
+
+#. module: stock_return_request
+#: model:ir.actions.act_window,name:stock_return_request.action_stock_return_request_tree
+msgid "Return Requests"
+msgstr "Запити на повернення"
+
+#. module: stock_return_request
+#: model_terms:ir.ui.view,arch_db:stock_return_request.stock_return_request_line_suggest_lot
+msgid "Select a lot"
+msgstr "Виберіть партію"
+
+#. module: stock_return_request
+#: model_terms:ir.ui.view,arch_db:stock_return_request.view_stock_return_request_form
+msgid "Set to Draft"
+msgstr "Повернути в чернетку"
+
+#. module: stock_return_request
+#: model:ir.model.fields,field_description:stock_return_request.field_stock_return_request__show_to_refund
+msgid "Show To Refund"
+msgstr "Показувати до повернення"
+
+#. module: stock_return_request
+#: model:ir.model.fields,field_description:stock_return_request.field_stock_return_request__line_ids
+msgid "Stock Return"
+msgstr "Повернення запасів"
+
+#. module: stock_return_request
+#: model_terms:ir.ui.view,arch_db:stock_return_request.view_stock_return_request_form
+msgid "Suggest Lots"
+msgstr "Запропонувати партії"
+
+#. module: stock_return_request
+#: model:ir.model.fields,field_description:stock_return_request.field_suggest_return_request_lot__suggested_lot_id
+msgid "Suggested Lot"
+msgstr "Запропонований лот"
+
+#. module: stock_return_request
+#: model:ir.model.fields.selection,name:stock_return_request.selection__suggest_return_request_lot__lot_suggestion_mode__sum
+#: model:ir.model.fields.selection,name:stock_return_request.selection__suggest_return_request_lot_line__lot_suggestion_mode__sum
+msgid "Total by lot"
+msgstr "Разом за партією"
+
+#. module: stock_return_request
+#: model:ir.model.fields.selection,name:stock_return_request.selection__suggest_return_request_lot__lot_suggestion_mode__detail
+#: model:ir.model.fields.selection,name:stock_return_request.selection__suggest_return_request_lot_line__lot_suggestion_mode__detail
+msgid "Total by move"
+msgstr "Разом за переміщенням"
+
+#. module: stock_return_request
+#: model:ir.model.fields,field_description:stock_return_request.field_stock_return_request_line__product_uom_id
+msgid "Unit of Measure"
+msgstr "Одиниця вимірювання"
+
+#. module: stock_return_request
+#: model_terms:ir.ui.view,arch_db:stock_return_request.view_stock_return_request_form
+msgid "Validate"
+msgstr "Підтвердити"
+
+#. module: stock_return_request
+#: model:ir.model.fields,field_description:stock_return_request.field_stock_return_request__website_message_ids
+msgid "Website Messages"
+msgstr "Повідомлення вебсайту"

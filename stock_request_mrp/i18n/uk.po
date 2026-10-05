@@ -18,3 +18,26 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock_request_mrp.mrp_production_form_view
 msgid "Stock Requests"
 msgstr "Запити на запаси"
+
+#. module: stock_request_mrp
+#: model_terms:ir.ui.view,arch_db:stock_request_mrp.stock_request_order_form
+#: model_terms:ir.ui.view,arch_db:stock_request_mrp.view_stock_request_form
+msgid "MOs"
+msgstr "Виробничі замовлення"
+
+#. module: stock_request_mrp
+#: model:ir.model.fields,field_description:stock_request_mrp.field_stock_request__production_ids
+#: model:ir.model.fields,field_description:stock_request_mrp.field_stock_request_order__production_ids
+msgid "Manufacturing Orders"
+msgstr "Виробничі замовлення"
+
+#. module: stock_request_mrp
+#: model:ir.model.fields,field_description:stock_request_mrp.field_stock_request__production_count
+#: model:ir.model.fields,field_description:stock_request_mrp.field_stock_request_order__production_count
+msgid "Manufacturing Orders count"
+msgstr "Кількість виробничих замовлень"
+
+#. module: stock_request_mrp
+#: model:ir.model.fields,field_description:stock_request_mrp.field_mrp_production__stock_request_count
+msgid "Stock Request #"
+msgstr "Запит на склад №"
